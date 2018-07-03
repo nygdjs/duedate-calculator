@@ -5,7 +5,7 @@
  *
  * @param {Object} time a javascript Date object
  * @param {Object} working a object of working hours and days
- *                         (see eg. ../config.js)
+ *                         (see eg. ./config.js)
  * @returns {boolean} true if inside working hours range
  */
 const isWorkingHours = (time, working) => {
