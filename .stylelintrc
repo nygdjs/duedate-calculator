@@ -1,0 +1,29 @@
+{
+    "processors": ["stylelint-processor-styled-components"],
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-styled-components"
+    ],
+    "plugins": ["stylelint-order", "stylelint-no-unsupported-browser-features"],
+    "syntax": "scss",
+
+    "rules": {
+        "plugin/no-unsupported-browser-features": [
+            true,
+            {
+                "severity": "warning"
+            }
+        ],
+        "indentation": 4,
+        "value-list-max-empty-lines": 999,
+        "color-hex-length": "long",
+        "order/properties-alphabetical-order": true,
+        "declaration-empty-line-before": [
+            "never",
+            {
+                "ignore": ["after-declaration"]
+            }
+        ],
+        "declaration-colon-newline-after": null
+    }
+}

@@ -1,0 +1,42 @@
+# OS files #
+##########################################
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# IDE project and build tool files #
+##########################################
+.idea/**
+.idea/**
+.imdone/**
+.remote-sync.json
+.vim.sess
+.vscode/**
+.watchmanconfig
+*.iml
+*.ipr
+*.iws
+/coverage/**
+/nbproject/**
+
+# Vagrant #
+##########################################
+.vagrant/**
+Vagrantfile
+
+# NPM, Bower, Lerna, Yarn, build tools, etc. #
+##########################################
+bower_components/**
+node_modules/**
+**/**/node_modules/.bin
+lerna-debug.log
+npm-debug.log
+yarn-error.log
+dist/**
+prepros.cfg
+/build/**
