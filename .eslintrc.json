@@ -17,28 +17,30 @@
     },
     "rules": {
         "compat/compat": "error",
-        "no-const-assign": "warn",
-        "no-this-before-super": "warn",
-        "no-unreachable": "warn",
-        "constructor-super": "warn",
-        "valid-typeof": "warn",
+        "constructor-super": "error",
+        "indent": ["error", 4],
         "no-confusing-arrow": "off",
+        "no-const-assign": "error",
+        "no-this-before-super": "error",
+        "no-unreachable": "error",
+        "valid-typeof": "error",
         "no-unused-vars": ["error", {
             "varsIgnorePattern": "h"
         }],
+        "operator-linebreak": ["error", "after"],
 
         "react/react-in-jsx-scope": "off",
+        "react/jsx-filename-extension": [1, {
+            "extensions": [".jsx"]
+        }],
         "react/jsx-indent": [1, 4],
         "react/jsx-indent-props": [1, 4],
         "react/no-unknown-property": [2, {
             "ignore": ["class"]
         }],
-        "react/jsx-filename-extension": [1, {
-            "extensions": [".jsx"]
-        }],
 
         "jsx-a11y/href-no-hash": "off",
-        "jsx-a11y/anchor-is-valid": ["warn", {
+        "jsx-a11y/anchor-is-valid": ["error", {
             "aspects": ["invalidHref"]
         }],
 
@@ -49,24 +51,24 @@
         "unicorn/filename-case": ["off", {
             "case": "camelCase"
         }],
-        "unicorn/no-abusive-eslint-disable": "error",
-        "unicorn/no-process-exit": "error",
-        "unicorn/throw-new-error": "error",
-        "unicorn/number-literal-case": "error",
-        "unicorn/escape-case": "error",
-        "unicorn/no-array-instanceof": "error",
-        "unicorn/no-new-buffer": "error",
-        "unicorn/no-hex-escape": "error",
         "unicorn/custom-error-definition": "off",
-        "unicorn/prefer-starts-ends-with": "error",
-        "unicorn/prefer-type-error": "error",
-        "unicorn/no-fn-reference-in-iterator": "off",
+        "unicorn/error-message": "error",
+        "unicorn/escape-case": "error",
         "unicorn/import-index": "error",
         "unicorn/new-for-builtins": "error",
-        "unicorn/regex-shorthand": "error",
-        "unicorn/prefer-spread": "error",
-        "unicorn/error-message": "error",
+        "unicorn/no-abusive-eslint-disable": "error",
+        "unicorn/no-array-instanceof": "error",
+        "unicorn/no-fn-reference-in-iterator": "off",
+        "unicorn/no-hex-escape": "error",
+        "unicorn/no-new-buffer": "error",
+        "unicorn/no-process-exit": "error",
         "unicorn/no-unsafe-regex": "off",
-        "unicorn/prefer-add-event-listener": "error"
+        "unicorn/number-literal-case": "error",
+        "unicorn/prefer-add-event-listener": "error",
+        "unicorn/prefer-spread": "error",
+        "unicorn/prefer-starts-ends-with": "error",
+        "unicorn/prefer-type-error": "error",
+        "unicorn/regex-shorthand": "error",
+        "unicorn/throw-new-error": "error"
     }
 }
