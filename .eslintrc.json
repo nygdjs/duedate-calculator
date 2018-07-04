@@ -18,6 +18,7 @@
     "rules": {
         "compat/compat": "error",
         "constructor-super": "error",
+        "import/extensions": "never",
         "indent": ["error", 4],
         "no-confusing-arrow": "off",
         "no-const-assign": "error",
