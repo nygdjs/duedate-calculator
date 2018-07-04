@@ -8,7 +8,7 @@ The application is intended to run in the browser (see list of compatible browse
 
 You should have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed.
 
-## Getting started
+## 🏃 Getting started
 
 Install (dev)dependencies with:
 
@@ -24,6 +24,14 @@ npm run start
 
 It will automagically open up your default browser with the URL.
 
+## 🃏 Tests
+
+Test made with [Jest.](https://jestjs.io/en/) To run them type
+
+```bash
+npm run test
+```
+
 ---
 
 ### ☑️ TODOs
@@ -33,5 +41,5 @@ It will automagically open up your default browser with the URL.
 #### Disclaimer
 
 -   First time ever using `Date`.
--   Never wrote tests in my developer life 🙈. Need to learn that.
--   First time using ES modules in the browser and it is fun 👌.
+-   Never wrote tests in my developer life 🙈. So tried out Jest for the first time.
+-   First time using ES modules in the browser and it is fun. 👌
