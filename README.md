@@ -4,13 +4,13 @@ A javascript application, that calculates due dates based on the submit date (cu
 
 The application is intended to run in the browser (see list of compatible browsers in`package.json`s `"browserslist":` field).
 
-## Prerequisities
+## Prerequisite
 
 You should have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed.
 
 ## Getting started
 
-Install dependencies with:
+Install (dev)dependencies with:
 
 ```bash
 npm install
@@ -22,10 +22,16 @@ To start the dev/webserver (also live-reloads changes), type in your terminal:
 npm run start
 ```
 
-It will automagically open up your default broser with the URL.
+It will automagically open up your default browser with the URL.
 
 ---
 
-### ☑️ TODOs:
+### ☑️ TODOs
 
 -   write some nice words about each module
+
+#### Disclaimer
+
+-   First time ever using `Date`.
+-   Never wrote tests in my developer life 🙈. Need to learn that.
+-   First time using ES modules in the browser and it is fun 👌.
