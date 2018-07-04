@@ -13,7 +13,7 @@ const hoursWarning = working => `
     Seriously...
     You entered a start date, that is outside of working hours.
     Please set something between ${working.hours.start} - ${working.hours.end} hours and ${working.week.start} - ${working.week.end}.
-    Or take some rest, grab a beer and come back tomorrow in working hours.🤓
+    Ooor take some rest, grab a beer and come back tomorrow in working hours.🤓
 `;
 
 export default hoursWarning;
