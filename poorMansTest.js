@@ -1,4 +1,4 @@
-import isWorkingHours from './modules/isWorkingHours';
+import isWorkingHours from './calculateDueDate/modules/isWorkingHours';
 
 const testDate1 = new Date('July 3 2018 13:30');
 const testDate2 = new Date('July 3 2018 8:59');
@@ -16,3 +16,6 @@ console.log(`5: ${testDate5} : ${isWorkingHours(testDate5)}`);
 console.log(`6: ${testDate6} : ${isWorkingHours(testDate6)}`);
 console.log(`7: ${testDate7} : ${isWorkingHours(testDate7)}`);
 console.log(`8: ${testDate8} : ${isWorkingHours(testDate8)}`);
+
+
+// TODO: ofc this should be some simple test cases like a proper developer would do, with eg tape

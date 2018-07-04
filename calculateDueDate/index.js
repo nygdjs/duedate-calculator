@@ -13,7 +13,7 @@ import hoursWarning from './modules/hoursWarning.js';
  *                            defaults to now
  * @returns {Object} the date when the issue is due
  */
-const CalculateDueDate = (turnaround, workHours, submitDate = new Date()) => {
+function CalculateDueDate(turnaround, workHours, submitDate = new Date()) {
     if (isWorkingHours(submitDate, workHours) === false) {
         console.log(hoursWarning(workHours));
     } else {
@@ -22,6 +22,6 @@ const CalculateDueDate = (turnaround, workHours, submitDate = new Date()) => {
         console.log(submitDate);
         return new Date(dueDate);
     }
-};
+}
 
 export default CalculateDueDate;
