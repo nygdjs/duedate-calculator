@@ -9,11 +9,11 @@
  * @returns {boolean} true if inside working hours range
  */
 const isWorkingHours = (time, working) => {
-    const hours = time.getHours();
+    const hour = time.getHours();
     const day = time.getDay();
     if (
-        hours >= working.hours.start &&
-        hours <= working.hours.end &&
+        hour >= working.hours.start &&
+        hour < working.hours.end &&
         day >= working.week.start &&
         day <= working.week.end
     ) {
@@ -24,4 +24,4 @@ const isWorkingHours = (time, working) => {
 
 export default isWorkingHours;
 
-// TODO: handle case of 17:01 is working hours
+// TODO: handle case, when 17:00 is not working hours
