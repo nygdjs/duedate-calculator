@@ -13,3 +13,31 @@ const testDate8 = new Date('July 1 2018 8:30');
 test('July 3 2018 13:30 is in working hours in Emarsys', () => {
     expect(isWorkingHours(testDate1, emarsys)).toBe(true);
 });
+
+test('July 3 2018 8:59 is NOT in working hours in Emarsys', () => {
+    expect(isWorkingHours(testDate2, emarsys)).toBe(false);
+});
+
+// test('JJuly 3 2018 17:01 is NOT in working hours in Emarsys', () => {
+//     expect(isWorkingHours(testDate3, emarsys)).toBe(false);
+// });
+
+test('July 3 2018 8:30 is NOT in working hours in Emarsys', () => {
+    expect(isWorkingHours(testDate4, emarsys)).toBe(false);
+});
+
+test('July 3 2018 20:30 is NOT in working hours in Emarsys', () => {
+    expect(isWorkingHours(testDate5, emarsys)).toBe(false);
+});
+
+test('JJuly 1 2018 12:30 is NOT in working hours in Emarsys', () => {
+    expect(isWorkingHours(testDate6, emarsys)).toBe(false);
+});
+
+test('July 1 2018 19:30 is NOT in working hours in Emarsys', () => {
+    expect(isWorkingHours(testDate7, emarsys)).toBe(false);
+});
+
+test('July 1 2018 8:30 is NOT in working hours in Emarsys', () => {
+    expect(isWorkingHours(testDate8, emarsys)).toBe(false);
+});
