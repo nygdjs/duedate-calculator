@@ -40,6 +40,6 @@ npm run test
 
 #### Disclaimer
 
--   First time ever using `Date`.
+-   First time ever actually working with `Date`.
 -   Never wrote tests in my developer life 🙈. So tried out Jest for the first time.
 -   First time using ES modules in the browser and it is fun. 👌
