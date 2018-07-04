@@ -55,7 +55,7 @@
         "unicorn/custom-error-definition": "off",
         "unicorn/error-message": "error",
         "unicorn/escape-case": "error",
-        "unicorn/import-index": "error",
+        "unicorn/import-index": 0,
         "unicorn/new-for-builtins": "error",
         "unicorn/no-abusive-eslint-disable": "error",
         "unicorn/no-array-instanceof": "error",
