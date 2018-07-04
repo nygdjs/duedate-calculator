@@ -23,13 +23,15 @@
         "*.{js,mjs}": "eslint --fix"
     },
     "scripts": {
-        "lint:js": "eslint --fix --ext .mjs.js ./**/",
         "cleanup": "rm yarn.lock; rm package-lock.json; rm -rf node_modules",
-        "reboot": "npm run cleanup; npm install"
+        "lint:js": "eslint --fix --ext .mjs.js ./**/",
+        "reboot": "npm run cleanup; npm install",
+        "start": "browser-sync start --server --files './'"
     },
     "dependencies": {},
     "devDependencies": {
         "babel-eslint": "^8.2.5",
+        "browser-sync": "^2.24.5",
         "eslint-config-airbnb": "^17.0.0",
         "eslint-plugin-compat": "^2.4.0",
         "eslint-plugin-import": "^2.13.0",
