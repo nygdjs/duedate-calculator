@@ -1,6 +1,6 @@
 /**
- * Returns a string template literal for warn user if entered
- * date for start outside of working hours.
+ * Returns a string template literal to warn user if entered
+ * a date for start outside of working hours.
  * Dynamically populated from working hours config object.
  *
  * @param {Object} working a object of working hours and days
@@ -9,10 +9,11 @@
  */
 
 const hoursWarning = working => `
-    It looks like someone is doing overtime... 💪
+    Looks like someone is doing overtime... 💪
     Seriously...
     You entered a start date, that is outside of working hours.
     Please set something between ${working.hours.start} - ${working.hours.end} hours and ${working.week.start} - ${working.week.end}.
+    Or take some rest, grab a beer and come back tomorrow in working hours.🤓
 `;
 
 export default hoursWarning;
