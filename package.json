@@ -27,7 +27,7 @@
         "lint:js": "eslint --fix --ext .mjs.js ./**/",
         "reboot": "npm run cleanup; npm install",
         "start": "browser-sync start --server --files './'",
-        "test": "jest"
+        "test": "jest ; lint:js"
     },
     "dependencies": {},
     "devDependencies": {
