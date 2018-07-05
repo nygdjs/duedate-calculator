@@ -1,3 +1,4 @@
+import getDayString from './getDayString.js';
 /**
  * Returns a string template literal to warn user if entered
  * a date for start outside of working hours.
@@ -12,7 +13,7 @@ const hoursWarning = working => `
     Looks like someone is doing overtime... 💪
     Seriously...
     You entered a start date, that is outside of working hours.
-    Please set something between ${working.hours.start} - ${working.hours.end} hours and ${working.week.start} - ${working.week.end}.
+    Please set something between ${working.hours.start} - ${working.hours.end} hours and ${getDayString[working.week.start]} - ${getDayString[working.week.end]}.
     Ooor take some rest, grab a beer and come back tomorrow in working hours.🤓
 `;
 
