@@ -10,19 +10,23 @@ You should have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.co
 
 ## 🏃 Getting started
 
-Install (dev)dependencies with:
+1.  Install (dev)dependencies with:
 
 ```bash
 npm install
 ```
 
-To start the dev/webserver (also live-reloads changes), type in your terminal:
+2.  To start the dev/webserver (also live-reloads changes), type in your terminal:
 
 ```bash
 npm run start
 ```
 
 It will automagically open up your default browser with the URL.
+
+3.  Check the console for the calculated due dates.
+
+4.  Modify the variables and play around in `index.mjs`.
 
 ## 🃏 Tests
 
