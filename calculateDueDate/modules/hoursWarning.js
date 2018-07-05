@@ -18,5 +18,3 @@ const hoursWarning = working => `
 `;
 
 export default hoursWarning;
-
-// TODO: convert working weekdays to human readable strings

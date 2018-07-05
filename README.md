@@ -36,7 +36,9 @@ npm run test
 
 ### ☑️ TODOs
 
--   write some nice words about each module
+-   create UI
+-   simplify test cases (too much repetition, can possibly be an array of options or something)
+-   make day number to string "conversion" nicer
 
 #### Disclaimer
 
