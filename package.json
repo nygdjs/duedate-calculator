@@ -24,10 +24,10 @@
     },
     "scripts": {
         "cleanup": "rm yarn.lock; rm package-lock.json; rm -rf node_modules",
-        "lint:js": "eslint --fix --ext .mjs.js ./**/",
+        "lint:js": "eslint --fix ./**/*.js",
         "reboot": "npm run cleanup; npm install",
         "start": "browser-sync start --server --files './'",
-        "test": "jest ; lint:js"
+        "test": "jest ; npm run lint:js"
     },
     "dependencies": {},
     "devDependencies": {
