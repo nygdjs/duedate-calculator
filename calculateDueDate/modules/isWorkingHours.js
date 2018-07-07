@@ -23,5 +23,3 @@ const isWorkingHours = (time, working) => {
 };
 
 export default isWorkingHours;
-
-// TODO: handle case, when 17:00 is not working hours
