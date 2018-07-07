@@ -9,5 +9,3 @@ const getDayString = {
 };
 
 export default getDayString;
-
-// TODO: Im almost sure there is a nicers, programmatic way to get these from Date object somehow😅
