@@ -3,8 +3,8 @@
  * date object is representing a moment in range of
  * working hours and working week days.
  *
- * @param {Object} time a javascript Date object
- * @param {Object} working a object of working hours and days
+ * @param {Object} time a JS Date object you want to check
+ * @param {Object} working config object of working hours and days
  *                         (see eg. ./config.js)
  * @returns {boolean} true if inside working hours range
  */
