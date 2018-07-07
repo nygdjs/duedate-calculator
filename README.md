@@ -43,6 +43,7 @@ npm run test
 -   create UI
 -   simplify test cases (too much repetition, can possibly be an array of options or something)
 -   make day number to string "conversion" nicer
+-   handle edge cases, like 17:00 is not working hours
 
 #### Disclaimer
 
