@@ -51,5 +51,3 @@ test('July 1 2018 19:30 is NOT in working hours in Emarsys', () => {
 test('July 1 2018 8:30 is NOT in working hours in Emarsys', () => {
     expect(isWorkingHours(testDate8, emarsys)).toBe(false);
 });
-
-// TODO: I guess test cases could be an array and the tests should loop through it
