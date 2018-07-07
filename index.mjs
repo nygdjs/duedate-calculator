@@ -1,5 +1,4 @@
 /* eslint no-console: 0 */
-
 import emarsys from './calculateDueDate/config.js';
 import getDayString from './calculateDueDate/modules/getDayString.js';
 import CalculateDueDate from './calculateDueDate/calculateDueDate.js';
@@ -15,7 +14,7 @@ console.log(`
     ⏳ due date is: ${CalculateDueDate(32, emarsys, submit)}
 `);
 
-// If you don't specify a submit date, it defaults to now
+// If you don't specify a submit date, it defaults to now, eg.:
 // console.log(`
 //     If you don't specify a submit date, it defaults to now
 //     ${CalculateDueDate(41, emarsys)}
