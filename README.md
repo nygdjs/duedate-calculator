@@ -2,7 +2,7 @@
 
 A javascript application, that calculates due dates based on the submit date (current date and time by default) and a turnaround time (given in hours as a number) needed for the work to be done.
 
-The application is intended to run in the browser (see list of compatible browsers in`package.json`s `"browserslist":` field).
+The application is intended to run in the browser (see list of compatible browsers in`[package.json](https://github.com/nygdjs/duedate-calculator/blob/master/package.json)`s `["browserslist"](https://github.com/nygdjs/duedate-calculator/blob/master/package.json#L9)` field).
 
 ## Prerequisite
 
